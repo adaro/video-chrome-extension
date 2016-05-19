@@ -1,22 +1,22 @@
 {
   "manifest_version": 2,
 
-  "name": "Getting started example",
-  "description": "This extension shows a Google Image search result for the current page",
+  "name": "Video Background Tabs",
+  "description": "This extension displays full bleed videos as the background of newly opened tabs.",
   "version": "1.0",
 
   "browser_action": {
-    "default_icon": "icon.png",
-    "default_popup": "popup.html",
+    "default_icon": "ing/icon.png",
+    "default_popup": "html/popup.html",
     "default_title": "Click here!"
   },
 
-  "background": {
-    "scripts": ["background.js"]
-  },
+//  "background": {
+//    "scripts": ["background.js"]
+//  },
 
   "chrome_url_overrides": {
-     "newtab": "background.html"
+     "newtab": "html/index.html"
   },
 
   "permissions": [
