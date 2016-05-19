@@ -6,5 +6,3 @@ To add video and thumbnail content add the following to the repo:
 img/videoframe.jpg
 
 video/test.mp4
-
-.idea
