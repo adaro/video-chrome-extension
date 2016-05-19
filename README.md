@@ -7,4 +7,4 @@ img/videoframe.jpg
 
 video/test.mp4
 
-.idea/
+.idea
